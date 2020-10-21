@@ -1,0 +1,1086 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PastasCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PastasCB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 10.2pt</value>
+  </data>
+  <data name="PastasCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 39</value>
+  </data>
+  <data name="PastasCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 24</value>
+  </data>
+  <data name="PastasCB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="PastasCB.Text" xml:space="preserve">
+    <value>Pastas</value>
+  </data>
+  <data name="&gt;&gt;PastasCB.Name" xml:space="preserve">
+    <value>PastasCB</value>
+  </data>
+  <data name="&gt;&gt;PastasCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PastasCB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PastasCB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="KurjerisCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="KurjerisCB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 10.2pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="KurjerisCB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KurjerisCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 69</value>
+  </data>
+  <data name="KurjerisCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="KurjerisCB.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="KurjerisCB.Text" xml:space="preserve">
+    <value>Kurjeris</value>
+  </data>
+  <data name="&gt;&gt;KurjerisCB.Name" xml:space="preserve">
+    <value>KurjerisCB</value>
+  </data>
+  <data name="&gt;&gt;KurjerisCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KurjerisCB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;KurjerisCB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PastomatasCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PastomatasCB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 10.2pt</value>
+  </data>
+  <data name="PastomatasCB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PastomatasCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 98</value>
+  </data>
+  <data name="PastomatasCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="PastomatasCB.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="PastomatasCB.Text" xml:space="preserve">
+    <value>Pastomatas</value>
+  </data>
+  <data name="&gt;&gt;PastomatasCB.Name" xml:space="preserve">
+    <value>PastomatasCB</value>
+  </data>
+  <data name="&gt;&gt;PastomatasCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PastomatasCB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PastomatasCB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TarptautinisKurjerisCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TarptautinisKurjerisCB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 10.2pt</value>
+  </data>
+  <data name="TarptautinisKurjerisCB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TarptautinisKurjerisCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 128</value>
+  </data>
+  <data name="TarptautinisKurjerisCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 24</value>
+  </data>
+  <data name="TarptautinisKurjerisCB.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="TarptautinisKurjerisCB.Text" xml:space="preserve">
+    <value>Tarptautinis kurjeris</value>
+  </data>
+  <data name="&gt;&gt;TarptautinisKurjerisCB.Name" xml:space="preserve">
+    <value>TarptautinisKurjerisCB</value>
+  </data>
+  <data name="&gt;&gt;TarptautinisKurjerisCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TarptautinisKurjerisCB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;TarptautinisKurjerisCB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Pasirinkti pristatyma</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PridetiPrekeBt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt</value>
+  </data>
+  <data name="PridetiPrekeBt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PridetiPrekeBt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>946, 674</value>
+  </data>
+  <data name="PridetiPrekeBt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 66</value>
+  </data>
+  <data name="PridetiPrekeBt.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="PridetiPrekeBt.Text" xml:space="preserve">
+    <value>PRIDETI PREKE</value>
+  </data>
+  <data name="&gt;&gt;PridetiPrekeBt.Name" xml:space="preserve">
+    <value>PridetiPrekeBt</value>
+  </data>
+  <data name="&gt;&gt;PridetiPrekeBt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PridetiPrekeBt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PridetiPrekeBt.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="IsimtiPrekeBt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt</value>
+  </data>
+  <data name="IsimtiPrekeBt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsimtiPrekeBt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>946, 761</value>
+  </data>
+  <data name="IsimtiPrekeBt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 66</value>
+  </data>
+  <data name="IsimtiPrekeBt.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="IsimtiPrekeBt.Text" xml:space="preserve">
+    <value>ISIMTI PREKE</value>
+  </data>
+  <data name="&gt;&gt;IsimtiPrekeBt.Name" xml:space="preserve">
+    <value>IsimtiPrekeBt</value>
+  </data>
+  <data name="&gt;&gt;IsimtiPrekeBt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsimtiPrekeBt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;IsimtiPrekeBt.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>787, 898</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 17</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>KLIENTAMS SPAUSTI DRAUDZIAMA</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="PavadinimasL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PavadinimasL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 7.8pt, style=Bold</value>
+  </data>
+  <data name="PavadinimasL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PavadinimasL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 43</value>
+  </data>
+  <data name="PavadinimasL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="PavadinimasL.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="PavadinimasL.Text" xml:space="preserve">
+    <value>PavadinimoLabel</value>
+  </data>
+  <data name="&gt;&gt;PavadinimasL.Name" xml:space="preserve">
+    <value>PavadinimasL</value>
+  </data>
+  <data name="&gt;&gt;PavadinimasL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PavadinimasL.Parent" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;PavadinimasL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SvorisL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SvorisL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 10.2pt, style=Bold</value>
+  </data>
+  <data name="SvorisL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SvorisL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 88</value>
+  </data>
+  <data name="SvorisL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="SvorisL.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SvorisL.Text" xml:space="preserve">
+    <value>Svoris:</value>
+  </data>
+  <data name="&gt;&gt;SvorisL.Name" xml:space="preserve">
+    <value>SvorisL</value>
+  </data>
+  <data name="&gt;&gt;SvorisL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SvorisL.Parent" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;SvorisL.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="KainaL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="KainaL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 10.2pt, style=Bold</value>
+  </data>
+  <data name="KainaL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KainaL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 108</value>
+  </data>
+  <data name="KainaL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="KainaL.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="KainaL.Text" xml:space="preserve">
+    <value>Kaina:</value>
+  </data>
+  <data name="&gt;&gt;KainaL.Name" xml:space="preserve">
+    <value>KainaL</value>
+  </data>
+  <data name="&gt;&gt;KainaL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KainaL.Parent" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;KainaL.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PrekesNuotraukaPB1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PrekesNuotraukaPB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 23</value>
+  </data>
+  <data name="PrekesNuotraukaPB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 250</value>
+  </data>
+  <data name="PrekesNuotraukaPB1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;PrekesNuotraukaPB1.Name" xml:space="preserve">
+    <value>PrekesNuotraukaPB1</value>
+  </data>
+  <data name="&gt;&gt;PrekesNuotraukaPB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrekesNuotraukaPB1.Parent" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;PrekesNuotraukaPB1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PrekesVntTB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="PrekesVntTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 243</value>
+  </data>
+  <data name="PrekesVntTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 27</value>
+  </data>
+  <data name="PrekesVntTB.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;PrekesVntTB.Name" xml:space="preserve">
+    <value>PrekesVntTB</value>
+  </data>
+  <data name="&gt;&gt;PrekesVntTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrekesVntTB.Parent" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;PrekesVntTB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="IKrepseliBt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IKrepseliBt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 243</value>
+  </data>
+  <data name="IKrepseliBt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="IKrepseliBt.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="IKrepseliBt.Text" xml:space="preserve">
+    <value>I krepseli</value>
+  </data>
+  <data name="&gt;&gt;IKrepseliBt.Name" xml:space="preserve">
+    <value>IKrepseliBt</value>
+  </data>
+  <data name="&gt;&gt;IKrepseliBt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IKrepseliBt.Parent" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;IKrepseliBt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AtimtiBt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AtimtiBt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 243</value>
+  </data>
+  <data name="AtimtiBt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="AtimtiBt.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="AtimtiBt.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;AtimtiBt.Name" xml:space="preserve">
+    <value>AtimtiBt</value>
+  </data>
+  <data name="&gt;&gt;AtimtiBt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AtimtiBt.Parent" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;AtimtiBt.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PridetiBt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PridetiBt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 243</value>
+  </data>
+  <data name="PridetiBt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="PridetiBt.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PridetiBt.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;PridetiBt.Name" xml:space="preserve">
+    <value>PridetiBt</value>
+  </data>
+  <data name="&gt;&gt;PridetiBt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PridetiBt.Parent" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;PridetiBt.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PristatymoInfoL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PristatymoInfoL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 10.2pt</value>
+  </data>
+  <data name="PristatymoInfoL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 171</value>
+  </data>
+  <data name="PristatymoInfoL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 80</value>
+  </data>
+  <data name="PristatymoInfoL.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="PristatymoInfoL.Text" xml:space="preserve">
+    <value>S - maza siunta (&lt;5kg), gali buti pristatyta visais budais;
+M - vidutine siunta (5 - 10kg), gali buti pristatyta per pasta, kurjeri ir
+tarptautini siuntima;
+L - didele siunta (&gt;10kg), gali buti pristatyta tik per kurjeri.</value>
+  </data>
+  <data name="&gt;&gt;PristatymoInfoL.Name" xml:space="preserve">
+    <value>PristatymoInfoL</value>
+  </data>
+  <data name="&gt;&gt;PristatymoInfoL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PristatymoInfoL.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PristatymoInfoL.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PrekiuSarasasP.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PrekiuSarasasP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 26</value>
+  </data>
+  <data name="PrekiuSarasasP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 801</value>
+  </data>
+  <data name="PrekiuSarasasP.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;PrekiuSarasasP.Name" xml:space="preserve">
+    <value>PrekiuSarasasP</value>
+  </data>
+  <data name="&gt;&gt;PrekiuSarasasP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrekiuSarasasP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PrekiuSarasasP.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 507</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Krepselio svoris:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 580</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Krepselio kaina:</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="VisuPrekiuSvorioL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="VisuPrekiuSvorioL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="VisuPrekiuSvorioL.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;VisuPrekiuSvorioL.Name" xml:space="preserve">
+    <value>VisuPrekiuSvorioL</value>
+  </data>
+  <data name="&gt;&gt;VisuPrekiuSvorioL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VisuPrekiuSvorioL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VisuPrekiuSvorioL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="VisuPrekiuKainaL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="VisuPrekiuKainaL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="VisuPrekiuKainaL.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;VisuPrekiuKainaL.Name" xml:space="preserve">
+    <value>VisuPrekiuKainaL</value>
+  </data>
+  <data name="&gt;&gt;VisuPrekiuKainaL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VisuPrekiuKainaL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VisuPrekiuKainaL.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="KrepselioSvorisTB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 7.8pt</value>
+  </data>
+  <data name="KrepselioSvorisTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 533</value>
+  </data>
+  <data name="KrepselioSvorisTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 22</value>
+  </data>
+  <data name="KrepselioSvorisTB.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;KrepselioSvorisTB.Name" xml:space="preserve">
+    <value>KrepselioSvorisTB</value>
+  </data>
+  <data name="&gt;&gt;KrepselioSvorisTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KrepselioSvorisTB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KrepselioSvorisTB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="KrepselioKainaTB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 7.8pt</value>
+  </data>
+  <data name="KrepselioKainaTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 600</value>
+  </data>
+  <data name="KrepselioKainaTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 22</value>
+  </data>
+  <data name="KrepselioKainaTB.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;KrepselioKainaTB.Name" xml:space="preserve">
+    <value>KrepselioKainaTB</value>
+  </data>
+  <data name="&gt;&gt;KrepselioKainaTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KrepselioKainaTB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KrepselioKainaTB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 10.2pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 270</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>436, 80</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Kurjerio mokestis: uz kiekviena papildoma 10kg, kurjeris ima 3% nuo
+pilnos siuntos kainos.
+Tarptautinio kurjerio mokestis: uz kiekviena papildoma 10kg, kurjeris
+ima 5% nuo pilnos siuntos kainos.</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="OkCheckBoxBt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt</value>
+  </data>
+  <data name="OkCheckBoxBt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 37</value>
+  </data>
+  <data name="OkCheckBoxBt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 113</value>
+  </data>
+  <data name="OkCheckBoxBt.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="OkCheckBoxBt.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;OkCheckBoxBt.Name" xml:space="preserve">
+    <value>OkCheckBoxBt</value>
+  </data>
+  <data name="&gt;&gt;OkCheckBoxBt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OkCheckBoxBt.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;OkCheckBoxBt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="KurjerioMokestisTB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 7.8pt</value>
+  </data>
+  <data name="KurjerioMokestisTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 392</value>
+  </data>
+  <data name="KurjerioMokestisTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 22</value>
+  </data>
+  <data name="KurjerioMokestisTB.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;KurjerioMokestisTB.Name" xml:space="preserve">
+    <value>KurjerioMokestisTB</value>
+  </data>
+  <data name="&gt;&gt;KurjerioMokestisTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KurjerioMokestisTB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;KurjerioMokestisTB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 366</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 23</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Kurjerio mokestis</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 26</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 435</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GalutinisKrepselioSvorisTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1034, 533</value>
+  </data>
+  <data name="GalutinisKrepselioSvorisTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="GalutinisKrepselioSvorisTB.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;GalutinisKrepselioSvorisTB.Name" xml:space="preserve">
+    <value>GalutinisKrepselioSvorisTB</value>
+  </data>
+  <data name="&gt;&gt;GalutinisKrepselioSvorisTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GalutinisKrepselioSvorisTB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GalutinisKrepselioSvorisTB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GalutineKrepselioKainaTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1034, 600</value>
+  </data>
+  <data name="GalutineKrepselioKainaTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="GalutineKrepselioKainaTB.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;GalutineKrepselioKainaTB.Name" xml:space="preserve">
+    <value>GalutineKrepselioKainaTB</value>
+  </data>
+  <data name="&gt;&gt;GalutineKrepselioKainaTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GalutineKrepselioKainaTB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GalutineKrepselioKainaTB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PilnaKainaTB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 13.8pt</value>
+  </data>
+  <data name="PilnaKainaTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>767, 690</value>
+  </data>
+  <data name="PilnaKainaTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 33</value>
+  </data>
+  <data name="PilnaKainaTB.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;PilnaKainaTB.Name" xml:space="preserve">
+    <value>PilnaKainaTB</value>
+  </data>
+  <data name="&gt;&gt;PilnaKainaTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PilnaKainaTB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PilnaKainaTB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MoketiBt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 12pt</value>
+  </data>
+  <data name="MoketiBt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 761</value>
+  </data>
+  <data name="MoketiBt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 66</value>
+  </data>
+  <data name="MoketiBt.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="MoketiBt.Text" xml:space="preserve">
+    <value>MOKETI</value>
+  </data>
+  <data name="&gt;&gt;MoketiBt.Name" xml:space="preserve">
+    <value>MoketiBt</value>
+  </data>
+  <data name="&gt;&gt;MoketiBt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MoketiBt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MoketiBt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SkaiciuotiBt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poor Richard, 7.8pt</value>
+  </data>
+  <data name="SkaiciuotiBt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SkaiciuotiBt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 684</value>
+  </data>
+  <data name="SkaiciuotiBt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 48</value>
+  </data>
+  <data name="SkaiciuotiBt.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="SkaiciuotiBt.Text" xml:space="preserve">
+    <value>SKAICIUOTI</value>
+  </data>
+  <data name="&gt;&gt;SkaiciuotiBt.Name" xml:space="preserve">
+    <value>SkaiciuotiBt</value>
+  </data>
+  <data name="&gt;&gt;SkaiciuotiBt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SkaiciuotiBt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SkaiciuotiBt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1233, 859</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mini Parduotuve</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Parduotuve</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

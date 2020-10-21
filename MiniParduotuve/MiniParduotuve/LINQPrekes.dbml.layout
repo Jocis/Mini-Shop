@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LINQPrekes">
+  <DataContextMoniker Name="/LINQPrekesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="488b7823-484e-44fb-8992-0b207469b1b2" absoluteBounds="0.625, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LINQPrekesDataContext/Preke" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a8f1dc1-8222-4a27-9ceb-f43c49ccb138" absoluteBounds="0.64000000000000012, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
